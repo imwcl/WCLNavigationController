@@ -12,6 +12,8 @@
 		97B825481C13FABB00170F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B825461C13FABB00170F87 /* LaunchScreen.storyboard */; };
 		97B825531C13FABC00170F87 /* WCLNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B825521C13FABC00170F87 /* WCLNavigationControllerTests.swift */; };
 		97B8255E1C13FABC00170F87 /* WCLNavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8255D1C13FABC00170F87 /* WCLNavigationControllerUITests.swift */; };
+		97CE161B1C1FEE6B0025C2B3 /* WCLNavigationController.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */; };
+		97CE161D1C1FEE730025C2B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 97CE161C1C1FEE730025C2B3 /* README.md */; };
 		97D71F571C19B63800BDED5F /* WCLNavanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F551C19B63800BDED5F /* WCLNavanimation.swift */; };
 		97D71F581C19B63800BDED5F /* WCLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F561C19B63800BDED5F /* WCLNavigationController.swift */; };
 		97D71F711C19DA4100BDED5F /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F6D1C19DA4100BDED5F /* oneViewController.swift */; };
@@ -49,6 +51,8 @@
 		97B825591C13FABC00170F87 /* WCLNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCLNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B8255D1C13FABC00170F87 /* WCLNavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCLNavigationControllerUITests.swift; sourceTree = "<group>"; };
 		97B8255F1C13FABC00170F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WCLNavigationController.gif; sourceTree = SOURCE_ROOT; };
+		97CE161C1C1FEE730025C2B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		97D71F551C19B63800BDED5F /* WCLNavanimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLNavanimation.swift; sourceTree = "<group>"; };
 		97D71F561C19B63800BDED5F /* WCLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLNavigationController.swift; sourceTree = "<group>"; };
 		97D71F6D1C19DA4100BDED5F /* oneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				97B825441C13FABB00170F87 /* Assets.xcassets */,
 				97B825461C13FABB00170F87 /* LaunchScreen.storyboard */,
 				97B825491C13FABB00170F87 /* Info.plist */,
+				97CE161C1C1FEE730025C2B3 /* README.md */,
+				97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */,
 			);
 			path = WCLNavigationController;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 				97B825451C13FABB00170F87 /* Assets.xcassets in Resources */,
 				97D71F741C19DA4100BDED5F /* ViewController.xib in Resources */,
 				97D71F721C19DA4100BDED5F /* oneViewController.xib in Resources */,
+				97CE161B1C1FEE6B0025C2B3 /* WCLNavigationController.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CE161D1C1FEE730025C2B3 /* README.md in Sources */,
 				97D71F731C19DA4100BDED5F /* ViewController.swift in Sources */,
 				97B8253E1C13FABB00170F87 /* AppDelegate.swift in Sources */,
 				97D71F571C19B63800BDED5F /* WCLNavanimation.swift in Sources */,
