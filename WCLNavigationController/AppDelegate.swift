@@ -19,7 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window?.makeKeyAndVisible()
         let one:ViewController          = ViewController()
-        let nav:WCLNavigationController = WCLNavigationController(rootViewController:one)
+        let nav:UINavigationController = UINavigationController(rootViewController:one)
+        nav.navigationBarHidden = true
+        nav.navigationBar.translucent = false
         self.window?.rootViewController = nav
         return true
     }

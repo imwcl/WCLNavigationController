@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975E711D1C21603700D311F1 /* WCLBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E711C1C21603700D311F1 /* WCLBaseAnimation.swift */; };
+		975E711F1C2169E200D311F1 /* oneAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E711E1C2169E200D311F1 /* oneAnimation.swift */; };
+		975E71211C216CA200D311F1 /* twoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E71201C216CA200D311F1 /* twoAnimation.swift */; };
+		975E71231C21741000D311F1 /* WCLAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E71221C21741000D311F1 /* WCLAnimationManager.swift */; };
+		978472F61C21A37F00E98E53 /* threeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978472F51C21A37F00E98E53 /* threeAnimation.swift */; };
 		97B8253E1C13FABB00170F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8253D1C13FABB00170F87 /* AppDelegate.swift */; };
 		97B825451C13FABB00170F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B825441C13FABB00170F87 /* Assets.xcassets */; };
 		97B825481C13FABB00170F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B825461C13FABB00170F87 /* LaunchScreen.storyboard */; };
 		97B825531C13FABC00170F87 /* WCLNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B825521C13FABC00170F87 /* WCLNavigationControllerTests.swift */; };
 		97B8255E1C13FABC00170F87 /* WCLNavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8255D1C13FABC00170F87 /* WCLNavigationControllerUITests.swift */; };
 		97CE161B1C1FEE6B0025C2B3 /* WCLNavigationController.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */; };
-		97CE161D1C1FEE730025C2B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 97CE161C1C1FEE730025C2B3 /* README.md */; };
-		97D71F571C19B63800BDED5F /* WCLNavanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F551C19B63800BDED5F /* WCLNavanimation.swift */; };
-		97D71F581C19B63800BDED5F /* WCLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F561C19B63800BDED5F /* WCLNavigationController.swift */; };
 		97D71F711C19DA4100BDED5F /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F6D1C19DA4100BDED5F /* oneViewController.swift */; };
 		97D71F721C19DA4100BDED5F /* oneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D71F6E1C19DA4100BDED5F /* oneViewController.xib */; };
 		97D71F731C19DA4100BDED5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D71F6F1C19DA4100BDED5F /* ViewController.swift */; };
@@ -40,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		975E711C1C21603700D311F1 /* WCLBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLBaseAnimation.swift; sourceTree = "<group>"; };
+		975E711E1C2169E200D311F1 /* oneAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneAnimation.swift; sourceTree = "<group>"; };
+		975E71201C216CA200D311F1 /* twoAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoAnimation.swift; sourceTree = "<group>"; };
+		975E71221C21741000D311F1 /* WCLAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLAnimationManager.swift; sourceTree = "<group>"; };
+		978472F51C21A37F00E98E53 /* threeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threeAnimation.swift; sourceTree = "<group>"; };
 		97B8253A1C13FABB00170F87 /* WCLNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B8253D1C13FABB00170F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97B825441C13FABB00170F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,9 +59,6 @@
 		97B8255D1C13FABC00170F87 /* WCLNavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCLNavigationControllerUITests.swift; sourceTree = "<group>"; };
 		97B8255F1C13FABC00170F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WCLNavigationController.gif; sourceTree = SOURCE_ROOT; };
-		97CE161C1C1FEE730025C2B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		97D71F551C19B63800BDED5F /* WCLNavanimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLNavanimation.swift; sourceTree = "<group>"; };
-		97D71F561C19B63800BDED5F /* WCLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLNavigationController.swift; sourceTree = "<group>"; };
 		97D71F6D1C19DA4100BDED5F /* oneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 		97D71F6E1C19DA4100BDED5F /* oneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oneViewController.xib; sourceTree = "<group>"; };
 		97D71F6F1C19DA4100BDED5F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +119,6 @@
 				97B825441C13FABB00170F87 /* Assets.xcassets */,
 				97B825461C13FABB00170F87 /* LaunchScreen.storyboard */,
 				97B825491C13FABB00170F87 /* Info.plist */,
-				97CE161C1C1FEE730025C2B3 /* README.md */,
 				97CE161A1C1FEE6B0025C2B3 /* WCLNavigationController.gif */,
 			);
 			path = WCLNavigationController;
@@ -143,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				97D71F541C19B63800BDED5F /* animation */,
-				97D71F561C19B63800BDED5F /* WCLNavigationController.swift */,
 			);
 			path = WCLNavigationController;
 			sourceTree = "<group>";
@@ -151,7 +153,11 @@
 		97D71F541C19B63800BDED5F /* animation */ = {
 			isa = PBXGroup;
 			children = (
-				97D71F551C19B63800BDED5F /* WCLNavanimation.swift */,
+				975E71221C21741000D311F1 /* WCLAnimationManager.swift */,
+				975E711C1C21603700D311F1 /* WCLBaseAnimation.swift */,
+				975E711E1C2169E200D311F1 /* oneAnimation.swift */,
+				975E71201C216CA200D311F1 /* twoAnimation.swift */,
+				978472F51C21A37F00E98E53 /* threeAnimation.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				TargetAttributes = {
 					97B825391C13FABB00170F87 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 464B6RYLBK;
 					};
 					97B8254D1C13FABC00170F87 = {
 						CreatedOnToolsVersion = 7.1;
@@ -300,12 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97CE161D1C1FEE730025C2B3 /* README.md in Sources */,
+				975E71231C21741000D311F1 /* WCLAnimationManager.swift in Sources */,
+				975E711F1C2169E200D311F1 /* oneAnimation.swift in Sources */,
 				97D71F731C19DA4100BDED5F /* ViewController.swift in Sources */,
 				97B8253E1C13FABB00170F87 /* AppDelegate.swift in Sources */,
-				97D71F571C19B63800BDED5F /* WCLNavanimation.swift in Sources */,
-				97D71F581C19B63800BDED5F /* WCLNavigationController.swift in Sources */,
+				975E711D1C21603700D311F1 /* WCLBaseAnimation.swift in Sources */,
 				97D71F711C19DA4100BDED5F /* oneViewController.swift in Sources */,
+				978472F61C21A37F00E98E53 /* threeAnimation.swift in Sources */,
+				975E71211C216CA200D311F1 /* twoAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WCLNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wcl.navgation.com.WCLNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = wcl.navgation.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -450,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WCLNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wcl.navgation.com.WCLNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = wcl.navgation.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

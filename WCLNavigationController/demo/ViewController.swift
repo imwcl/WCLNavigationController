@@ -17,8 +17,34 @@ class ViewController: UIViewController {
     }
     
     @IBAction func push(sender: AnyObject) {
-        self.navigationController?.pushViewController(oneViewController(), animated: true)
+        self.navigationController?.pushViewController(oneViewController(), animationType: oneAnimation.self, animated: true)
     }
+    
+    @IBAction func push2(sender: AnyObject) {
+        self.navigationController?.pushViewController(oneViewController(), animationType: twoAnimation.self, animated: true)
+
+    }
+    @IBAction func push3(sender: AnyObject) {
+        self.navigationController?.pushViewController(oneViewController(), animationType: threeAnimation.self, animated: true)
+        
+    }
+    
+    @IBAction func present1(sender: AnyObject) {
+        self.presentViewController(oneViewController(), animationType: oneAnimation.self, animated: true, complete: nil)
+
+    }
+    
+    @IBAction func present2(sender: AnyObject) {
+        self.presentViewController(oneViewController(), animationType: twoAnimation.self, animated: true, complete: nil)
+
+    }
+    
+    @IBAction func present3(sender: AnyObject) {
+        self.presentViewController(oneViewController(), animationType: threeAnimation.self, animated: true, complete: nil)
+    }
+    
+    
+    
     
 
     override func didReceiveMemoryWarning() {

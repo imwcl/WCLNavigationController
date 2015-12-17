@@ -9,14 +9,29 @@
 import UIKit
 
 class oneViewController: UIViewController {
+    
+    
+    @IBOutlet weak var popBT: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        if self.navigationController != nil
+        {
+            self.popBT.setTitle("pop", forState: UIControlState.Normal)
+        }else
+        {
+            self.popBT.setTitle("dismiss", forState: UIControlState.Normal)
+        }
     }
     @IBAction func pop(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        if self.navigationController != nil
+        {
+            self.navigationController?.popViewControllerAnimated(true)
+        }else
+        {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
