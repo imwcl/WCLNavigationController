@@ -5,5 +5,6 @@
 > 使用
 
 `self.navigationController?.pushViewController(oneViewController(), animationType: threeAnimation.self, animated: true)`
+
 `self.presentViewController(oneViewController(), animationType: oneAnimation.self, animated: true, complete: nil)`
 
